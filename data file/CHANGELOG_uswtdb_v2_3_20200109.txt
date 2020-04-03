@@ -1,0 +1,35 @@
+## [2.3.0] - 2020-01-08
+### Added
+- Addition of 2635 turbine records. Additions include:
+	- 2635 new turbines.
+	
+### Removed
+- Removed 208 turbine records. Removals include: 
+	- 63 decommissioned turbines.
+	- 115 reclassified as "not a turbine" (Either another structure mislabeled, or nothing in imagery >2 years after "built date")
+	- 28 duplicate turbines removed.
+	- 2 residential scale turbines (<= 50 kW) identified and removed
+
+### New Variables Added
+- "eia_id" - Plant ID from EIA form 860 added to 57,085 turbines
+
+### Changed
+- A total of 14,593 attribute changes were made. These include:
+	- 2 "faa_ors" updates.
+	- 1,285 "faa_asn" updates.
+	- 2,601 "p_name" updates.
+	- 935 "p_year" updates.
+	- 3,905 "p_tnum" updates.
+	- 866 "p_cap" updates.
+	- 944 "t_manu" updates.
+	- 268 "t_model" updates.
+	- 30 "t_hh" updates.
+	- 6 "t_ttlh" updates.
+	- 1,299 "t_conf_atr" updates.
+	- 415 "t_conf_loc" updates.
+	- 633 "t_img_date" updates.
+	- 1,318 "t_img_srce" updates.
+	- 51 "xlong" updates.
+	- 35 "ylat" updates.
+
+
